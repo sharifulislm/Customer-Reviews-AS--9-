@@ -1,13 +1,13 @@
 import React from 'react';
 
-const About = () => {
+const DASBOARD = () => {
     return (
         <div>
-
-            <h1> this is About </h1>
             
+
+            <h1> this is Dasboard </h1>
         </div>
     );
 };
 
-export default About;
+export default DASBOARD;
