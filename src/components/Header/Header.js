@@ -1,19 +1,22 @@
-import React from 'react';
-import './Heder.css'
+import React from 'react'
+
+import CustomLink from '../CustomLink/CustomLink'
+
 const Header = () => {
+  return (
+    <div className='sticky top-0 bg-white px-12 py-8 flex justify-center '>
+      <div className='hidden md:block'>
+    
+      </div>
+      <div className='flex gap-4 text-xl'>
+        <CustomLink to='/'>HOME</CustomLink>
+        <CustomLink to='/Reviews'>REVIEWS</CustomLink>
+        <CustomLink to='/Dasboard'>DASBOARD</CustomLink>
+        <CustomLink to='/Blogs'>BLOGS</CustomLink>
+        <CustomLink to='/about'>ABOUT</CustomLink>
+      </div>
+    </div>
+  )
+}
 
-    return (
-        <div className='flex justify-center md:static Heder-box  '>
-
-      <a href="home"> HOME</a>
-      <a href="Reviews"> REVIEWS</a>
-      <a href="Dasboard"> DASBOARD</a>
-      <a href="Blogs"> BLOGS</a>
-      <a href="about"> ABOUT</a>
-
-            
-        </div>
-    );
-};
-
-export default Header;
+export default Header
