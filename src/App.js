@@ -11,6 +11,7 @@ import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
 import { useEffect, useState } from 'react';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -46,6 +47,9 @@ function App() {
  
 
  </Routes>
+
+<Footer></Footer>
+
  </>
 
 

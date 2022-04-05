@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ShowCard from '../ShowCard/ShowCard';
 
 import './HomPage/HomePage.css'
@@ -44,7 +45,7 @@ const homePage = ({RevewsCard}) => {
 </div>
 
 <div className='Reviews-btn '>
-<button className='text-amber-100 bg-orange-600 rounded-lg px-4 py-1'> See All Reviews</button>
+<Link to="/Reviews"> <button className='text-amber-100 bg-orange-600 rounded-lg px-4 py-1'>  See All Reviews </button></Link>
 </div>
 
   

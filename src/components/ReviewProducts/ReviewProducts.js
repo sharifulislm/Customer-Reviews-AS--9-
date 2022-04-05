@@ -4,7 +4,6 @@ import React from 'react';
 const ReviewProducts = ({RevewsCard}) => {
 
     const {id,picture,RevewsRating,name,Revews}= RevewsCard;
-
     return (
 <div className='shadow-lg rounded-2xl w-[350px]  bg-white p-4 mb-7'>
 <p className='mb-5'> {Revews}</p>

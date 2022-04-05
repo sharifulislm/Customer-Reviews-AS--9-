@@ -4,16 +4,9 @@ import React from 'react';
 const About = () => {
     return (
         <div className='container'>
-            <div className='row'>
-
-  <div className='columns-6'>
-<h1> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, inventore.</h1>
-  </div>
-  <div className='columns-6'>
+         <h1 className=' text-center mt-5 text-xl-5'> this is About </h1>
 
 
-  </div>
-            </div>
 
     
             

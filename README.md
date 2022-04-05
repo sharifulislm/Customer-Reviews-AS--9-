@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# AL Shuhaiba super shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- This project was bootstrapped with [Al Shuhaiba super shop](https://preeminent-yeot-949111.netlify.app/Blogs).
 
 ## Available Scripts
 
