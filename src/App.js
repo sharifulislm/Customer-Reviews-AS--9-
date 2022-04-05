@@ -1,31 +1,55 @@
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Dasboard from './components/Dasboard/Dasboard'
+import Dasboard from './components/Dasboard/Dasboard';
+import HomePage from './components/HomePage/HomePage';
+import Reviews from './components/Reviews/Reviews';
+import Blogs from './components/Blogs/Blogs';
 
 
+import About from './components/About/About';
+import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
-import Home from './components/Home/Home';
+import { useEffect, useState } from 'react';
 
 
 
 
 function App() {
+  const [RevewsCard, setRevewsCard]=useState([]);
+
+  useEffect(() => {
+  fetch('data.json')
+  .then(res => res.json())
+  .then (data => setRevewsCard(data));
+
+
+  } ,[])
+
+
+
   return (
-    <div className="">
-<Header> </Header>
-<Home></Home>
+
+<>
+<Header/>
+
+
+
  <Routes>
- <Route path='/' element="{<Home/>}"> </Route>
- <Route path='/Dasboard' element="{<Dasboard>}"> </Route>
- <Route path='/Reviews' element="<{Reviews/>}"> </Route>
- <Route path='Blogs' element="{<Blogs}"></Route>
+ <Route path='/' element={<HomePage RevewsCard={RevewsCard} />}/>
+ <Route path='/Reviews' element={<Reviews RevewsCard={RevewsCard}/>}/>
+ <Route path='/Dasboard' element={<Dasboard/>}/>
+ <Route path='/Blogs' element={<Blogs/>}/>
+ <Route path='/About' element={<About/>}/>
+ <Route path='*' element={<NotFound/>}/>
+
  
 
  </Routes>
+ </>
 
 
-    </div>
+   
   );
 }
 

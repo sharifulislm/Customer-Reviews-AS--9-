@@ -1,0 +1,49 @@
+[
+    {
+      "id": "623ea813993be03c85025c15",
+      "picture": "img/Medacine (1).jpg",
+      "RevewsRating": 4.5,
+      "name": "Noelle Hogan",
+      
+      "Revews": "A trim-to-the-max chassis, a beautiful screen, and a cutting-edge Intel processor help the latest Dell XPS 13 affirm its status as today's top high-end ultraportable."
+     
+    },
+    {
+      "id": "623ea81318c4418c0c63d8b8",
+      "picture": "img/Medacine (2).jpg",
+      "RevewsRating": 5.5,
+      "name": "Woods Gomez",
+      "Revews": "The Lenovo IdeaPad 3 14 is a knockout budget laptop, with excellent performance and a bevy of modern trappings that almost make you forget it rings up at less than $600."
+    },
+    {
+      "id": "623ea8131e3469458e6311a5",
+      "picture": "img/Medacine (3).jpg",
+      "RevewsRating": 3.5,
+      "name": "Gale Holt",
+      "Revews": "It's pricey for a Chromebook, but Acer's Chromebook Spin 713 remains a world-class alternative to Windows convertibles."
+    },
+    {
+      "id": "623ea8139c7e668df0026f61",
+      "picture": "img/Medacine (4).jpg",
+      "RevewsRating": 4.2,
+      "name": "Dorothea Chang",
+      "Revews": "The Inspiron 16 Plus (7610) is a top-notch value in a burgeoning category of laptops with 16-inch displays, capable Intel H-series CPUs, and Nvidia GeForce RTX graphics.."
+    },
+    {
+      "id": "623ea813f8e9188bb20fd902",
+      "picture": "img/Medacine (5).jpg",
+      "RevewsRating": 4.1,
+      "name": "Becker Brewer",
+      "Revews": "Acer's Predator Helios 300 remains a good value among 15.6-inch gaming notebooks, but doesn't stand out in a fiercely competitive field."
+
+    },
+    {
+      "id": "623ea813487c90388b101e4a",
+      "picture": "img/Medacine (6).jpg",
+      "RevewsRating": 5.3,
+      "name": "Kerr Macdonald",
+      "Revews": "The Arc A370M GPU promises to offer up to two times the performance over Intel's integrated graphics, without adding much to the laptop's size."
+    }
+  
+    
+  ]

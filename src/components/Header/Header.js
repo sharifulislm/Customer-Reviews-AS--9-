@@ -9,11 +9,12 @@ const Header = () => {
     
       </div>
       <div className='flex gap-4 text-xl'>
-        <CustomLink to='/'>HOME</CustomLink>
+        <CustomLink to='/'>HOMEPAGE </CustomLink>
         <CustomLink to='/Reviews'>REVIEWS</CustomLink>
         <CustomLink to='/Dasboard'>DASBOARD</CustomLink>
+     
         <CustomLink to='/Blogs'>BLOGS</CustomLink>
-        <CustomLink to='/about'>ABOUT</CustomLink>
+        <CustomLink to='/About'>ABOUT</CustomLink>
       </div>
     </div>
   )

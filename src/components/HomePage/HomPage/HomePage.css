@@ -1,0 +1,40 @@
+.Hadding-text {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 27px;
+}
+.img-box img {
+    width: 100%;
+    margin-left: 100px;
+  
+}
+.Hadding-text p {
+    font-size: 14px;
+    padding-top: 10px;
+    color: dimgrey;
+}
+button.btn-live {
+    font-size: 13px;
+    background: #98006a;
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+    margin-top: 0px;
+}
+
+
+/* custome reviews  */
+
+.Reviews-btn {
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+};
+.button-box {
+    background: #654d4d !important;
+    color: white;
+    padding: 2px 24px;
+    border-radius: 9px;};
+
