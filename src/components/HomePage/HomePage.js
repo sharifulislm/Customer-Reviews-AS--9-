@@ -37,7 +37,7 @@ const homePage = ({RevewsCard}) => {
   <div className='mb-20'>
   <h1 className='text-center Customer-Reviews text-5xl'>Customer Reviews ({SliceItem.length})</h1>
 
-<div className='Revews-box columns-3 mt-20  px-20 '>
+<div className='Revews-box grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 justify-items-center mb-6 mt-20  px-20 '>
 {
     SliceItem.map(RevewsCard=> <ShowCard key={RevewsCard.id} RevewsCard={RevewsCard}></ShowCard>)
 }
