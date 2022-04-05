@@ -15,14 +15,14 @@ const homePage = ({RevewsCard}) => {
  <section>
  
         <div> 
-        <div className='  columns-2 '>
-<div className=' Hadding-text'>
+        <div className='grid grid-cols-1   mr:12  md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2  gap-2 justify-items-center'>
+<div className=' Hadding-text ml-3'>
     <h1>Your next Laptop</h1>
     <h2 className='text-indigo-700'> Your best Laptop</h2>
     <p>The Twelve South Curve stand is a beautiful, flowing aluminum design that complements your MacBook. Buy online now at apple.com</p>
  <button className='btn-live'> Live Demo</button>
 </div>
-<div className=' img-box'>
+<div className=' img-box '>
 <img
               src='https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HLST2?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1596135470000'
               alt=''
