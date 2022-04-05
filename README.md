@@ -1,6 +1,11 @@
 # AL Shuhaiba super shop
 
-- This project was bootstrapped with [Al Shuhaiba super shop](https://preeminent-yeot-949111.netlify.app/Blogs).
+- This project makeing with,Tailwind, React ,javascrept ,  [Al Shuhaiba super shop](https://preeminent-yeot-949111.netlify.app/Blogs).
+- In the project directory, you can run <b> npm start </b>
+- this my best projects 
+- this projects is dynamic 
+
+
 
 ## Available Scripts
 
